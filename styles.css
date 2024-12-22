@@ -1,0 +1,94 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Стиль для контейнера вводу */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #taskInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #addTaskButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addTaskButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стиль для списку завдань */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .task-item.completed {
+    /*text-decoration: line-through;*/
+    color: gray;
+    background-color: #bfdac6;
+  }
+  
+  .task-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .task-item .complete-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .task-item .complete-button:hover {
+    background-color: #218838;
+  }
+  
+  .task-item .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .task-item .delete-button:hover {
+    background-color: #c82333;
+  }
+  
